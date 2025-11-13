@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    font-family: Tahoma;
+}
+
+.container{
+    width: 50%;
+    margin:150px auto;
+    text-align: center;
+}
+
+.game-container{
+    width: 50%;
+    aspect-ratio: 1;
+    margin:0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border:3px solid;
+}
+
+.game-box{
+    aspect-ratio: 1;
+    border:3px solid;
+    display: grid;
+    place-items: center;
+    font-size: 2rem;
+    font-family: "Comic Sans MS";
+}
+
+#signal{
+    margin:20px auto;
+}

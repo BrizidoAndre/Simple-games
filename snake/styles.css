@@ -1,0 +1,35 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: Corbel;
+}
+
+.container{
+    width: 40%;
+    min-width: 501px;
+    aspect-ratio: 1;
+    margin:100px auto;
+    text-align: center;
+}
+
+.game-container{
+    margin:0 auto;
+    width: 500px;
+    aspect-ratio: 1;
+    border:3px solid black;
+
+    display: grid;
+    grid-template-columns: repeat(15, 1fr);
+}
+
+.game-container div{
+    border:1px solid blue;
+}
+
+.apple{
+    background:red;
+}
+
+.snake{
+    background:green;
+}

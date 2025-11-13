@@ -1,0 +1,48 @@
+.container{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.container-game{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 40px 0;
+}
+
+.card{
+    width: 150px;
+    aspect-ratio: 9/16;
+    perspective: 1000px;
+    transition:all .4s;
+}
+
+.card-inner{
+    transform-style: preserve-3d;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: all .4s;
+    font-size: 2.5rem;
+    font-family: "Comic Sans MS";
+}
+
+.side{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background:brown;
+    backface-visibility: hidden;
+    display: grid;
+    place-items: center;
+}
+
+.back{
+    background:green;
+    transform:rotateY(180deg)
+}
+
+.card:hover .card-inner{
+    transform:rotateY(180deg);
+}

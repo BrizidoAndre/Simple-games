@@ -1,0 +1,24 @@
+.game-container{
+    text-align: center;
+}
+#gameBoard{
+    border:3px solid;
+}
+#scoreText{
+    font-family: Consolas, monospace;
+    font-size: 100px;
+}
+
+#resetBtn{
+    font-family: "Comic Sans MS", cursive;
+    font-size: 22px;
+    width: 100px;
+    border: 4px solid;
+    border-radius: 15px;
+    cursor:pointer;
+    background:none;
+    transition: all .25s;
+}
+#resetBtn:hover{
+    transform: translateY(-5px);
+}
